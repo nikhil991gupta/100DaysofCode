@@ -1,0 +1,16 @@
+//problem 1
+
+
+SELECT a.customer_id,a.name,concat("+",b.country_code,a.phone_number)
+FROM customers as a
+LEFT join country_codes as b 
+ON a.country=b.country
+ORDER BY a.customer_id;
+
+//problem 2
+
+SELECT ei.employee_ID, ei.name
+FROM employee_information ei
+JOIN last_quarter_bonus b ON b.employee_ID = ei.employee_ID
+WHERE ei.division LIKE 'HR'
+AND b.bonus >= 5000;
