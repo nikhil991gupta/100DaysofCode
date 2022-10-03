@@ -24,12 +24,12 @@ class Dsa_BubbleSort_Exe{
     public static void main(String[] args) {
         long start = System.currentTimeMillis();
         Scanner sc = new Scanner(System.in);
-        System.out.print("enter how many values you want to enter : ");
+        System.out.print("Enter The Size of the Array: ");
         int n = sc.nextInt();
         int arr[] = new int[n+1];
 
         for(int i = 1 ; i <= n; i++){
-            System.out.print("No. "+ (i) +" ");
+            System.out.print("Enter the value. "+ (i) +" ");
             arr[i]=sc.nextInt();
         }
 
@@ -38,6 +38,6 @@ class Dsa_BubbleSort_Exe{
         long end = System.currentTimeMillis();
         long elapsedTime = end - start;
         System.out.println("\n");
-        System.out.println("Time for execution"+elapsedTime+"millis");
+        System.out.println("Time for execution: "+elapsedTime+"millis");
     }
 }
