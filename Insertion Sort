@@ -1,0 +1,36 @@
+
+
+
+
+
+
+
+import java.util.*;
+public class InsertionSort {
+    public static void main(String[] args) {
+        System.out.println("Enter the Of the Array");
+
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+
+        //declare an array and print the original contents
+        int[] numArray = new int[a];
+        for (int i = 0; i <a;i++)
+        {
+            numArray[i]= sc.nextInt();
+        }
+        System.out.println("Original Array:" + Arrays.toString(numArray));
+        //apply insertion sort algorithm on the array
+        for(int k=1; k<numArray.length-1; k++)   {
+            int temp = numArray[k];
+            int j= k-1;
+            while(j>=0 && temp <= numArray[j])   {
+                numArray[j+1] = numArray[j];
+                j = j-1;
+            }
+            numArray[j+1] = temp;
+        }
+        //print the sorted array
+        System.out.println("Sorted Array:" + Arrays.toString(numArray));
+    }
+}
