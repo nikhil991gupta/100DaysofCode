@@ -29,7 +29,6 @@ class interrface{
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         System.out.print(my_calculator.divisor_sum(n) + "\n");
-      	sc.close();
     }
     /*
      *  ImplementedInterfaceNames method takes an object and prints the name of the interfaces it implemented
