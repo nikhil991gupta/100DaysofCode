@@ -38,7 +38,6 @@ public class javasort
          
          Student st = new Student(id, fname, cgpa);
          studentList.add(st);
-         
          testCases--;
       }
       
