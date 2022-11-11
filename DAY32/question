@@ -1,0 +1,23 @@
+Implemention of Multithreading using Runnable Interface
+
+used to execute code on a concurrent thread. 
+It is an interface which is implemented by any 
+class if we want that the instances of that class should be executed by a thread.
+
+To create a thread using runnable, use the following code-
+
+Runnable runnable = new MyRunnable();    
+  
+Thread thread = new Thread(runnable);  
+thread.start();  
+It is the easiest way to create a thread by implementing Runnable.
+ One can create a thread on any object by implementing Runnable.
+  To implement a Runnable, one has only to implement the run method.
+
+public void run()
+
+In this method, we have the code which we want to execute on a concurrent thread. 
+ we can use variables, instantiate classes, and perform an action 
+ like the same way the main thread does. The thread remains until 
+ the return of this method. The run method establishes an entry point to a new thread.
+
