@@ -1,3 +1,5 @@
+package DAY36;
+
 import java.io.*;
 import java.util.*;
 import java.text.*;
@@ -7,21 +9,21 @@ public class plusminus {
 public static void main(String[] args) {
 Scanner in = new Scanner(System.in);
 int n = in.nextInt();
-int pos = 0;
+int positive = 0;
 int zero = 0;
-int neg = 0;
+int negative = 0;
 for (int i = 0; i < n; i++) {
 int x = in.nextInt();
 if (x > 0) {
-pos++;
+positive++;
 } else if (x == 0) {
 zero++;
 } else {
-neg++;
+negative++;
 }
 }
-System.out.println(pos / (double) n);
-System.out.println(neg / (double) n);
+System.out.println(positive / (double) n);
+System.out.println(negative / (double) n);
 System.out.println(zero / (double) n);
 }
 }
