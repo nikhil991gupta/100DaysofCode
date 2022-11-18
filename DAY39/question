@@ -1,0 +1,41 @@
+File handling 
+
+In this program we use the FileWriter class together with its method to write some text to the file we created.
+when we done writing to the file, you should close it with the close() method:
+After writing the data into the file will display 
+1.length of string
+2.Vowels
+3.Consonants
+4.spaces
+
+
+...............................
+..........OUTPUT...............
+
+Length of th String 129
+vowels 38
+consonats 69
+spaces 22
+..............................................................
+
+Input String:
+The smallest element of a binary search tree is the leftmost element of the tree 
+and the largest element is the rightmost one.
+..................................................................
+
+Test.dat
+(in this file we are skipping 2 characters and the write into the file)
+Tesals lmn fabnr erhte stelfms lmn ftete adtelreteeeti h ihms n.
+.................................................................
+
+Test1.dat
+(we writing the original string in this file)
+The smallest element of a binary search tree is the leftmost element of the tree 
+and the largest element is the rightmost one.
+..................................................................
+
+ Test2.dat
+ (in this file writing file from string.length - string.length/4 i.e 129-129/4
+ we  will start writing 30th position )
+  element is the rightmost one.
+...................................................................
