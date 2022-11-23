@@ -1,3 +1,5 @@
+package DAY42;
+
 class Geeks {
 
     public long count(int n) {
