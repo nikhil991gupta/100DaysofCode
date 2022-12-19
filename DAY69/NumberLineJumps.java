@@ -65,4 +65,3 @@ public class NumberLineJumps {
         bufferedWriter.close();
     }
 }
-g
