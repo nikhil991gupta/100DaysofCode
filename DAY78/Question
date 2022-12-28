@@ -10,7 +10,6 @@ Example
 
 
 
-Untitled Diagram(4).png
 
 Using the diagram above, if the student wants to get to page , they open the book to page , flip  page and they are on the correct page. If they open the book to the last page, page , they turn  page and are at the correct page. Return .
 
