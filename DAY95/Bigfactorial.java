@@ -1,3 +1,5 @@
+package DAY95;
+
 import java.io.*;
 import java.math.*;
 import java.security.*;
