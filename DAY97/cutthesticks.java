@@ -60,6 +60,7 @@ public class cutthesticks {
             + "\n"
         );
 
+        
         bufferedReader.close();
         bufferedWriter.close();
     }
