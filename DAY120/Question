@@ -37,3 +37,40 @@ Constraints:
 
 1 <= fruits.length <= 105
 0 <= fruits[i] < fruits.length
+
+
+OUTPUT
+
+Accepted
+Runtime: 0 ms
+Case 1
+Input
+fruits =
+[1,2,1]
+Output
+3
+Expected
+3
+
+Accepted
+Runtime: 0 ms
+Case 2
+Input
+fruits =
+[0,1,2,2]
+Output
+3
+Expected
+3
+
+
+Accepted
+Runtime: 0 ms
+Case 1
+Input
+fruits =
+[1,2,3,2,2]
+Output
+4
+Expected
+4
