@@ -1,3 +1,5 @@
+package DAY121;
+
 class Solution {
     public int removeDuplicates(int[] nums) {
         int j=1;
