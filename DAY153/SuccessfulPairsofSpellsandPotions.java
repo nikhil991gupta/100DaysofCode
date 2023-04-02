@@ -1,3 +1,7 @@
+package DAY153;
+
+import java.util.*;
+
 class Solution {
     public int[] successfulPairs(int[] spells, int[] potions, long success) {
         int n=potions.length;
